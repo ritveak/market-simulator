@@ -29,7 +29,7 @@ LINKEDIN_POST_URL = "https://www.linkedin.com/posts/your-post-id"  # Post about 
 GITHUB_REPO_URL = "https://github.com/ritveak/market-simulator"
 
 # Understand me dialog: YouTube video ID (from https://www.youtube.com/watch?v=VIDEO_ID)
-YOUTUBE_VIDEO_ID = "Ol18JoeXlVI"
+YOUTUBE_VIDEO_ID = ""
 
 # Info tooltips for each input
 INFO = {
