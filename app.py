@@ -26,7 +26,7 @@ LINKEDIN_URL = "https://www.linkedin.com/in/ritveak/"
 LINKEDIN_POST_URL = "https://www.linkedin.com/posts/your-post-id"  # Post about motivation & story
 
 # Get more: GitHub repository URL
-GITHUB_REPO_URL = "https://github.com/yourusername/market-simulator"
+GITHUB_REPO_URL = "https://github.com/ritveak/market-simulator"
 
 # Understand me dialog: YouTube video ID (from https://www.youtube.com/watch?v=VIDEO_ID)
 YOUTUBE_VIDEO_ID = "Ol18JoeXlVI"
@@ -176,10 +176,11 @@ All three strategies receive the same monthly contribution and use the same pric
 
 ---
 
-## 📂 How Data Is Sourced
+## 📂 Price Data
 
-- **Location**: CSV files under the `resources/` folder. The app scans **recursively**—any CSV in `resources/` or its subfolders is discovered. Add more files and they appear in the **Data File** dropdown.
-- **Currently available**: Nifty 50 historical data (2007–2026). Path: `resources/nsedata/nifty/nifty2007-2026.csv`. Date and closing price only.
+- **Source**: Few Built-in files and your own CSVs.
+- **Built-in**: Nifty 50 historical data (2007–2026), ITC (2018-2026) real data.
+- **Your-data**: Pretty simple, check out the video up top to explore how to create CSV of your own pick of your own duration.
 - **Format**: Each CSV must have exactly two columns:
   - **Date** — format `DD/MM/YY` (day/month/year)
   - **Close** — closing price for that trading day

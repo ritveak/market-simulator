@@ -17,6 +17,8 @@ Place CSV files in the `resources/` folder. Each file must have **exactly two co
 - **Date**: `DD/MM/YY` format (e.g., `02/01/07` for 2 January 2007)
 - **Close**: Closing price for that trading day
 
+Alternatively, you can upload your csv from browser as well!
+
 ## Quick Start
 
 ```bash
