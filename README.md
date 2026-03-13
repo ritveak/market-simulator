@@ -1,3 +1,12 @@
+---
+title: Ritveak's market simulator
+emoji: 🚀
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+pinned: false
+---
+
 # Market Simulator
 
 A financial simulation tool that compares three investment philosophies using historical market data. All strategies share the same monthly cash inflow for a fair comparison, with non-deployed cash earning a steady Liquid Fund interest rate.
