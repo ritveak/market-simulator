@@ -288,7 +288,7 @@ st.markdown("Compare three investment strategies with fair monthly cash inflow a
 # --- Understand me & Have suggestions buttons ---
 col_btn1, col_btn2, col_btn3 = st.columns([1, 1, 1])
 with col_btn1:
-    understand_clicked = st.button("**Understand me**", type="primary", use_container_width=True)
+    understand_clicked = st.button("**Understand the Simulator**", type="primary", use_container_width=True)
 with col_btn2:
     get_more_clicked = st.button("**Have suggestions, want more?**", use_container_width=True, key="get_more_btn")
 if understand_clicked:
