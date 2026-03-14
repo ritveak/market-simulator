@@ -23,7 +23,7 @@ st.set_page_config(page_title="Market Simulator", layout="wide")
 
 # Connect section (update with your URLs)
 LINKEDIN_URL = "https://www.linkedin.com/in/ritveak/"
-LINKEDIN_POST_URL = "https://www.linkedin.com/posts/your-post-id"  # Post about motivation & story
+LINKEDIN_POST_URL = "https://www.linkedin.com/posts/prateeksingh-learnapp_marketcrash-stockmarket-lpg-activity-7438083509178568704-eW84/"  # Post about motivation & story
 
 # Get more: GitHub repository URL
 GITHUB_REPO_URL = "https://github.com/ritveak/market-simulator"
@@ -543,7 +543,7 @@ with st.sidebar:
     # --- Connect ---
     st.markdown("---")
     st.markdown(
-        "You can check my [LinkedIn post](%s) for more context on the motivation and story behind this."
+        "You can check this [LinkedIn post](%s) for more context on the motivation and story behind this."
         % LINKEDIN_POST_URL
     )
 
